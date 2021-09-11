@@ -1,6 +1,6 @@
 //SSSpencer413
 
-var facts = [
+var Facts = [
     "A turtle's shell is a modified ribcage and part of its vertebral column",
     "Many turtles are able to retract their heads and feet into their shells",
     "Turtles are very adaptive and can be found on every continent, except Antarctica ",
@@ -35,7 +35,7 @@ var facts = [
 exports.run = async (Client, interaction) => {
     await interaction.defer();
 
-    interaction.reply(dataf.JSON.Facts[Math.floor(Math.random() * dataf.JSON.Facts.length)]);
+    interaction.reply(Facts[Math.floor(Math.random() * Facts.length)]);
 };
 
 exports.commandData = {
