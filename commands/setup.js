@@ -1,3 +1,5 @@
+//SSSpencer413
+
 const fs = require('fs');
 
 
@@ -24,4 +26,5 @@ exports.run = async (Client, interaction) => {
         }
         interaction.reply({ content: 'Setup complete!'});
    }
+
 };
