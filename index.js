@@ -12,11 +12,11 @@ client.on("ready", () => {
         if (!commands.find((cmd) => cmd.name === "setup")) {
             client.application?.commands.create({
                 name: 'setup',
-                description: 'Deploys the bot commands in the guild',
+                description: 'Deploys the bot commands in the guild, use the reset parameter if your commands are not working!',
                 options: [{
                     name: 'reset',
                     type: 'BOOLEAN',
-                    description: 'Whether the bot should reset all of its current commands associated with the current guild.',
+                    description: 'Set this to true to reset all commands (you can bring them back with /setup!)',
                     required: false,
                 }]
             });
