@@ -1,5 +1,5 @@
 # turtlebot
-A discord bot that gives you a random picture of a turtle at request!
+A discord bot all about turtles!
 
 Credit to [Turtlepla](https://discordapp.com/users/418230724361977856) for the idea!
 
