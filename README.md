@@ -10,3 +10,8 @@ Credit to [Turtlepla](https://discordapp.com/users/418230724361977856) for the i
 Setup Guide:
 --
 To set up TurtleBot, simply add it to a server and run `/setup`! This will import all of the commands! If you would like to remove the commands, do `/setup true`.
+
+Commands:
+--
+`/turtlepic` -- Sends a random picture of a turtle.
+`/turtlefact` -- Sends a random fact about turtles.
